@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     ss.ios.pod_target_xcconfig = {
       'OTHER_SWIFT_FLAGS' => '$(inherited) -D DECIDE'
     }
-    ss.ios.source_files = 'Mixpanel/*.swift'
+    ss.ios.source_files = 'Mixpanel/**/*.swift'
     ss.tvos.source_files = base_source_files
     ss.osx.source_files = base_source_files
   end
