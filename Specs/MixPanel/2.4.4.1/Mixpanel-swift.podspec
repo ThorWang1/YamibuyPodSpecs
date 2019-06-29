@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.osx.pod_target_xcconfig = {
     'OTHER_SWIFT_FLAGS' => '$(inherited) -D MAC_OS'
   }
+  s.deployment,'Alamofire'
 
   s.subspec 'Complete' do |ss|
     ss.ios.pod_target_xcconfig = {
