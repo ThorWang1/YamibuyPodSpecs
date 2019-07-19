@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://mixpanel.com'
   s.author       = { 'Mixpanel, Inc' => 'support@mixpanel.com' }
   s.source       = { :git => 'https://github.com/ThorWang1/mixpanel-swift.git',
-                     :branch => "Yamibuy" }
+                     :tag => "v#{s.version}" }
   s.ios.deployment_target = '8.0'
   s.ios.resources = ['Mixpanel/**/*.{png,xib,storyboard}']
   s.ios.frameworks = 'UIKit', 'Foundation', 'CoreTelephony'
